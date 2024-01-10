@@ -1,0 +1,59 @@
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+
+/* ------------------------------------ CARD ---------------------------------------------- */
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+
+.item {
+    cursor: pointer !important;
+}
+
+.item img {
+    border-radius: 50%;
+}
+
+.item:hover .card {
+    border: 2px solid rgb(255, 110, 12) !important;
+    border-color: rgb(255, 110, 12) !important;
+}
+
+@media screen and (max-width: 450px) {
+  .card img {
+    width: 100px !important;
+  }
+}
+
+.add-to-cart {
+  height: 42px; 
+  font-weight: bold;
+  background-color: rgb(242, 11, 144); 
+  color: rgb(255, 255, 255); 
+  border-radius: 25px; 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-family:'poppins' sans-serif;
+  outline: 0px; 
+  border: 0px;
+}
+
+@media screen and (max-width: 360px) {
+  .add-to-cart {
+    font-size: 12px;
+  }
+}
